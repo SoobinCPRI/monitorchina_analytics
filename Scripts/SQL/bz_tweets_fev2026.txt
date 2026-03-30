@@ -1,0 +1,28 @@
+CREATE TABLE [dbo].[bz_tweets_fev2026](
+	[Nome da Origem] [nvarchar](255) NULL,
+	[Query_Str] [nvarchar](255) NULL,
+	[Post_URL] [nvarchar](255) NULL,
+	[Author_Name] [nvarchar](255) NULL,
+	[Author_Web_Page_URL] [nvarchar](255) NULL,
+	[Author_Handle] [nvarchar](255) NULL,
+	[Verified_Status] [nvarchar](255) NULL,
+	[UTC_Time] [nvarchar](255) NULL,
+	[Ads] [nvarchar](255) NULL,
+	[Tweet_Content] [nvarchar](max) NULL,
+	[Post_ID] [nvarchar](255) NULL,
+	[Tweet_URL] [nvarchar](255) NULL,
+	[Reply_Count] [nvarchar](255) NULL,
+	[Repost_Count] [nvarchar](255) NULL,
+	[Like_Count] [nvarchar](255) NULL,
+	[View_Count] [nvarchar](255) NULL,
+	[Bookmark_Count] [nvarchar](255) NULL,
+	[Tweet_Image_URL] [nvarchar](255) NULL,
+	[Replying_to] [nvarchar](255) NULL,
+	[Reply_to_Whom] [nvarchar](255) NULL,
+	[Reply_to_Whom_URL] [nvarchar](255) NULL,
+	[Reply_to_Whom_Username] [nvarchar](255) NULL,
+	[Reply_to_Whom_Handle] [nvarchar](255) NULL,
+	[Language] [nvarchar](255) NULL,
+	[Type] [nvarchar](255) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
